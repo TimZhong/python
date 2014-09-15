@@ -1,10 +1,17 @@
-python
-======
-This part will record my script during my study of python.
-
-And I will save some scripts here.
-
-
+@@ -1,10 +1,11 @@
+ python-patterns
+ ===============
+ 
+-A collection of design patterns implemented (by other people) in python.
++A collection of design patterns and idioms in Python.
+ 
+ When an implementation is added or modified, be sure to update this file and
+-rerun `append_output.sh` to keep the output comments at the bottom up to date.
++rerun `append_output.sh` (eg. ./append_output.sh borg.py) to keep the output
++comments at the bottom up to date.
+ 
+ Current Patterns:
+ 
  | Pattern | Description |
  |:-------:| ----------- |
  | [3-tier](3-tier.py) | data<->business logic<->presentation separation (strict relationships) |
@@ -25,3 +32,14 @@ And I will save some scripts here.
  | [iterator](iterator.py) | structure repeated, identical calls as a generator |
  | [mediator](mediator.py) | an object that knows how to connect other objects and act as a proxy |
  | [memento](memento.py) | generate an opaque token that can be used to go back to a previous state |
+ | [mvc](mvc.py) | model<->view<->controller (non-strict relationships) |
+ | [null](null.py) | (no clear use in modern Python) |
+ | [observer](observer.py) | provide a callback for notification of events/changes to data |
+ | [pool](pool.py) | preinstantiate and maintain a group of instances of the same type |
+ | [prototype](prototype.py) | use a factory and clones of a prototype for new instances (if instantiation is expensive) |
+ | [proxy](proxy.py) | an object funnels operations to something else |
+ | [publish_subscribe](publish_subscribe.py) | a source syndicates events/data to 0+ registered listeners |
+ | [state](state.py) | logic is org'd into a discrete number of potential states and the next state that can be transitioned to |
+ | [strategy](strategy.py) | selectable operations over the same data |
+ | [template](template.py) | an object imposes a structure but takes pluggable components |
+ | [visitor](visitor.py) | invoke a callback for all items of a collection |
