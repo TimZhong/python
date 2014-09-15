@@ -1,6 +1,6 @@
-@@ -1,10 +1,11 @@
- python-patterns
- ===============
+
+ python
+===============
  
 -A collection of design patterns implemented (by other people) in python.
 +A collection of design patterns and idioms in Python.
